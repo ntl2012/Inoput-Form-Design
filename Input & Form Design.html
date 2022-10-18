@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Input & Form Design </title>
+    </head>
+    <body>
+
+    <link rel="stylesheet" href="./Input & Form Design.css">
+
+        <header>
+            <div class="top">
+                <div class="title">
+                    <h1> INPUT AND FORM DESIGN </h1>
+                </div>
+                <div class="title-info">
+                    <h5> Two Form Styles </h5>
+                </div>
+            </div>
+
+        </header>
+
+
+        <section class="main">
+           <div class="form">
+            <form class="all">
+                <b>FORM</b>
+
+                <label for="userName" class="name info"></label>
+                <input type="text" placeholder="User Name" name="userName" id="userName">
+
+                <label for="eMail" class="mail info"></label>
+                <input type="email" placeholder="E-mail" name="eMail" id="eMail">
+
+                <label for="passWord" class="key info"></label>
+                <input type="password" placeholder="Password" name="passWord" id="passWord">
+
+                <label for="country" class="state info"></label>
+                <select name="country" id="country" class="options">
+                    <option name="Country">Country</option>
+                    <option name="Azerbaijan">Azerbaijan</option>
+                    <option name="Turkey">Turkey</option>
+                    <option name="USA">USA</option>
+                    <option name="UK">UK</option>
+                </select>
+
+
+                <h6 class="development radio">Level of Development</h6>
+
+                <label for="basic" class="level radio">Basic</label>
+                <input type="radio" value="basic" name="level" id="basic">
+
+                <label for="medium" class="level radio">Medium</label>
+                <input type="radio" value="medium" name="level" id="medium">
+
+                <label for="advanced" class="level radio">Advanced</label>
+                <input type="radio" value="advanced" name="level" id="advanced">
+
+
+                <h6 class="skills">Programming Skills</h6>
+
+                <label for="java" class="programming jv">Java</label>
+                <input type="checkbox" name="java" id="java">
+
+                <label for="phyton" class="programming phyton">Phyton</label>
+                <input type="checkbox" name="phyton" id="phyton">
+
+                <label for="j-script" class="programming js">JavaScript</label>
+                <input type="checkbox" name="j-script" id="j-script">
+
+            </form>
+           </div> 
+        </section>
+
+
+        <footer>
+            <label for="send" class="submit"></label>
+            <input type="button" value="Send" name="send" id="send" class="send">
+        </footer>
+    </body>
+</html>
